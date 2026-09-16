@@ -1,0 +1,14 @@
+# 앱과 (나중에) 홈페이지가 fetch 한다. 공개 데이터라 * 로 연다.
+/*
+  Access-Control-Allow-Origin: *
+
+# 하루 한 번 갱신 — 5분 캐시 후 재검증하면 CDN 부하와 신선도가 모두 맞는다.
+/index.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+/festivals.json
+  Cache-Control: public, max-age=300, stale-while-revalidate=3600
+# 지역·검색 파일은 크고 덜 자주 바뀐다.
+/area/*
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+/search.json
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400

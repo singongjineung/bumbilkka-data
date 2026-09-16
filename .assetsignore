@@ -1,0 +1,14 @@
+# CDN에 올릴 것은 public/ 아래뿐이다. 나머지는 저장소에 남되 배포에서 뺀다.
+.git
+.wrangler
+.github
+.gitignore
+wrangler.jsonc
+.assetsignore
+README.md
+
+# 회차 간 재사용 캐시 — 소비자가 쓰지 않는다.
+cache
+# 내부 상태 (마지막 성공일·호출량)
+state.json
+state.json.*

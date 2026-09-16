@@ -1,0 +1,10 @@
+// Cloudflare가 Pages 대신 Worker로 만들어졌을 때 필요한 파일.
+// 없으면 "Could not detect a directory containing static files" 로 빌드가 실패한다.
+// ⚠️ Worker는 git push만으로 배포되지 않는다 — Deploy Hook을 반드시 쓴다.
+{
+  "name": "bumbilkka-data",
+  "compatibility_date": "2026-09-07",
+  "assets": { "directory": "./public" },
+  "workers_dev": true,
+  "preview_urls": false
+}
