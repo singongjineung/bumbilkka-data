@@ -1,0 +1,27 @@
+{
+ "visitor_lag_days": 30,
+ "enrich_last_run": "2026-09-18",
+ "enrich_done_today": 197,
+ "enrich_pending": 0,
+ "last_success": "2026-09-18",
+ "last_attempt": "2026-09-18",
+ "last_error": null,
+ "calls_used": {
+  "TatsCnctrRateService": 274,
+  "KorService2": 1,
+  "DataLabService": 7
+ },
+ "elapsed_sec": 68.2,
+ "coverage": {
+  "spots": 7561,
+  "sigungu_ok": 225,
+  "sigungu_empty": 47,
+  "sigungu_fail": 0,
+  "carried": 0,
+  "failed_sgg": [],
+  "with_img": 5906,
+  "with_geo": 6595,
+  "with_rel": 3372
+ },
+ "calls_total": 282
+}
