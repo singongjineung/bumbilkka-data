@@ -1,4 +1,5 @@
-# 앱과 (나중에) 홈페이지가 fetch 한다. 공개 데이터라 * 로 연다.
+# 이 파일은 produce_forecast.py 가 매번 다시 쓴다. 직접 고치지 말 것.
+# 앱과 홈페이지가 fetch 한다. 공개 데이터라 * 로 연다.
 /*
   Access-Control-Allow-Origin: *
 
@@ -7,6 +8,7 @@
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
 /festivals.json
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
+
 # 지역·검색 파일은 크고 덜 자주 바뀐다.
 /area/*
   Cache-Control: public, max-age=1800, stale-while-revalidate=86400
