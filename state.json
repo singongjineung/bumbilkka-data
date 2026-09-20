@@ -1,17 +1,17 @@
 {
  "visitor_lag_days": 30,
- "enrich_last_run": "2026-09-20",
+ "enrich_last_run": "2026-09-21",
  "enrich_done_today": 0,
  "enrich_pending": 0,
- "last_success": "2026-09-20",
- "last_attempt": "2026-09-20",
+ "last_success": "2026-09-21",
+ "last_attempt": "2026-09-21",
  "last_error": null,
  "calls_used": {
-  "TatsCnctrRateService": 274,
+  "TatsCnctrRateService": 275,
   "KorService2": 1,
   "DataLabService": 7
  },
- "elapsed_sec": 106.5,
+ "elapsed_sec": 127.8,
  "coverage": {
   "spots": 7561,
   "sigungu_ok": 225,
@@ -23,5 +23,5 @@
   "with_geo": 6595,
   "with_rel": 3372
  },
- "calls_total": 282
+ "calls_total": 283
 }
