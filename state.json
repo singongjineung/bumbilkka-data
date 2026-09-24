@@ -7,21 +7,21 @@
  "last_attempt": "2026-09-24",
  "last_error": null,
  "calls_used": {
-  "TatsCnctrRateService": 274,
+  "TatsCnctrRateService": 273,
   "KorService2": 1,
   "DataLabService": 7
  },
- "elapsed_sec": 109.2,
+ "elapsed_sec": 114.2,
  "coverage": {
-  "spots": 7561,
-  "sigungu_ok": 225,
-  "sigungu_empty": 47,
+  "spots": 4272,
+  "sigungu_ok": 150,
+  "sigungu_empty": 122,
   "sigungu_fail": 0,
   "carried": 0,
   "failed_sgg": [],
-  "with_img": 5906,
-  "with_geo": 6595,
-  "with_rel": 3372
+  "with_img": 3333,
+  "with_geo": 3740,
+  "with_rel": 2067
  },
- "calls_total": 282
+ "calls_total": 281
 }
