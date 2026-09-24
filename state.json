@@ -1,27 +1,27 @@
 {
  "visitor_lag_days": 30,
- "enrich_last_run": "2026-09-24",
+ "enrich_last_run": "2026-09-25",
  "enrich_done_today": 0,
  "enrich_pending": 0,
- "last_success": "2026-09-24",
- "last_attempt": "2026-09-24",
+ "last_success": "2026-09-25",
+ "last_attempt": "2026-09-25",
  "last_error": null,
  "calls_used": {
-  "TatsCnctrRateService": 273,
+  "TatsCnctrRateService": 274,
   "KorService2": 1,
   "DataLabService": 7
  },
- "elapsed_sec": 114.2,
+ "elapsed_sec": 110.9,
  "coverage": {
-  "spots": 4272,
-  "sigungu_ok": 150,
-  "sigungu_empty": 122,
+  "spots": 7561,
+  "sigungu_ok": 225,
+  "sigungu_empty": 47,
   "sigungu_fail": 0,
   "carried": 0,
   "failed_sgg": [],
-  "with_img": 3333,
-  "with_geo": 3740,
-  "with_rel": 2067
+  "with_img": 5906,
+  "with_geo": 6595,
+  "with_rel": 3372
  },
- "calls_total": 281
+ "calls_total": 282
 }
