@@ -8,10 +8,10 @@
  "last_error": null,
  "calls_used": {
   "TatsCnctrRateService": 274,
-  "KorService2": 1,
+  "KorService2": 930,
   "DataLabService": 7
  },
- "elapsed_sec": 119.0,
+ "elapsed_sec": 456.7,
  "coverage": {
   "spots": 7561,
   "sigungu_ok": 225,
@@ -23,5 +23,5 @@
   "with_geo": 6595,
   "with_rel": 3372
  },
- "calls_total": 282
+ "calls_total": 1211
 }
