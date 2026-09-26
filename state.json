@@ -1,17 +1,17 @@
 {
  "visitor_lag_days": 30,
- "enrich_last_run": "2026-09-26",
+ "enrich_last_run": "2026-09-27",
  "enrich_done_today": 0,
  "enrich_pending": 0,
- "last_success": "2026-09-26",
- "last_attempt": "2026-09-26",
+ "last_success": "2026-09-27",
+ "last_attempt": "2026-09-27",
  "last_error": null,
  "calls_used": {
   "TatsCnctrRateService": 274,
   "KorService2": 930,
   "DataLabService": 7
  },
- "elapsed_sec": 456.7,
+ "elapsed_sec": 402.9,
  "coverage": {
   "spots": 7561,
   "sigungu_ok": 225,
