@@ -14,3 +14,5 @@
   Cache-Control: public, max-age=1800, stale-while-revalidate=86400
 /search.json
   Cache-Control: public, max-age=1800, stale-while-revalidate=86400
+/stations.csv
+  Cache-Control: public, max-age=1800, stale-while-revalidate=86400
